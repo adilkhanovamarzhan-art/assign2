@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 3 - Table and Form</title>
+  <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+
+  <h1 id="page-title">Student Grades</h1>
+
+  <!-- Table -->
+  <table class="grades-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Subject</th>
+        <th>Grade</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Amina</td>
+        <td>Math</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>Bekzat</td>
+        <td>Physics</td>
+        <td>B+</td>
+      </tr>
+      <tr>
+        <td>Dias</td>
+        <td>History</td>
+        <td>A-</td>
+      </tr>
+      <tr>
+        <td>Saule</td>
+        <td>English</td>
+        <td>B</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h1 id="form-title">Contact Us</h1>
+
+  <!-- Form -->
+  <form class="feedback-form">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name">
+
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email">
+
+    <label for="role">I am a:</label>
+    <select id="role" name="role">
+      <option>Student</option>
+      <option>Teacher</option>
+      <option>Other</option>
+    </select>
+
+    <p>Would you like to receive updates?</p>
+    <div class="radio-group">
+      <label>
+        <input type="radio" id="yes" name="updates" value="yes">
+        Yes
+      </label>
+      <label>
+        <input type="radio" id="no" name="updates" value="no">
+        No
+      </label>
+    </div>
+
+    <label for="comments">Message:</label>
+    <textarea id="comments" rows="4" placeholder="Write your message..."></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+
+</body>
+</html>

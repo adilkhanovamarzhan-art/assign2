@@ -1,0 +1,92 @@
+/* ---------- Table Styling ---------- */
+.grades-table {
+  width: 70%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.grades-table th {
+  background: #4CAF50;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.grades-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.grades-table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.highlight-row {
+  background: #ffe082 !important;
+}
+
+/* ---------- Form Styling ---------- */
+.feedback-form {
+  width: 60%;
+  margin: 40px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.feedback-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+.feedback-form input:focus,
+.feedback-form select:focus,
+.feedback-form textarea:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+.radio-group {
+  display: flex;
+  gap: 20px;   /* расстояние между Yes и No */
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+
+.feedback-form button {
+  background: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.feedback-form button:hover {
+  background: #43a047;
+}
